@@ -1,9 +1,9 @@
 #####################################################
 #             TEMPORARY FILE!!!!!!                  #
-#                 EDIT FIRST!!                      #
+#                 EDIT FIRST!!`                     #
 #####################################################
 
-#1. Import OS, Document Loader, Text Splitter, Bedrock Embeddings, Vector DB, VectorStoreIndex, Bedrock-LLM
+#1. Import OS, Document Loader, Text Splitter, Bedrock Embeddings, Vector DB, Vecto`rStoreIndex, Bedrock-LLM
 import os
 from langchain.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter

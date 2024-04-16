@@ -2,6 +2,7 @@ import streamlit as st
 import plotly.graph_objects as go
 import pandas as pd
 import time
+import tools
 
 def format_currency(value):
     # Add a '.' as a thousands separator and prepend with 'Rp '
@@ -39,5 +40,5 @@ def run():
     #data_table = data_table.reset_index(drop=True)
     st.dataframe(data_table, hide_index=True)
     
-    st.write("Any question? ask our chatbot!")
+    st.write("Any question? Ask our chatbot!")
     st.button("Lets Go!",on_click=tools.change_page('chatbot'))
